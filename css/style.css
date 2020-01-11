@@ -251,7 +251,7 @@ fieldset div {
   bottom: 80px;
 }
 
-/* -------------- */zeaareér"'  qcdefrszxw'
+/* -------------- */
 /* - EXERCICE 7 - */
 /* -------------- */
 
@@ -297,4 +297,30 @@ fieldset div {
   width: 200px;
   height: 200px;
   background-color: grey;
+}
+
+/* -------------- */
+/* - EXERCICE 8 - */
+/* -------------- */
+
+#ex8-fieldset {
+  height: 2000px;
+}
+
+#ex8-nav {
+  position: sticky;
+  float: left;
+  top: 20px;
+  width: 75px;
+  text-align: left;
+  border: none;
+  background-color: tomato;
+  padding: 25px;
+}
+
+#ex8-nav ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
 }
