@@ -1,0 +1,15 @@
+10/01/2020:
+  11h30: ADD Exercise 1
+  11h50: ADD Exercise 2
+  14h30: ADD Exercise 3
+  15h00: ADD Exercise 4
+  16h00: ADD Exercise 5
+  16h30: ADD Exercise 6
+  16h50: ADD Exercise 7
+11/01/2020:
+  14h42: Correction Exercise 6 z-index
+  14h50: Correction Exercise 6 z-index
+  16h00: ADD Exercise 8
+  16h13: ADD color classes and CSS color refactoring
+  16h16: DELETE useless line
+  16h29: ADD commits list
