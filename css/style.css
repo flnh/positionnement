@@ -1,0 +1,300 @@
+/* GENERALITES */
+
+fieldset, h1 {
+  text-align: center;
+}
+
+fieldset {
+  margin: 50px auto;
+}
+
+fieldset div {
+  border: 2px solid black;
+}
+
+/* -------------- */
+/* - EXERCICE 1 - */
+/* -------------- */
+
+#ex1-green {
+  width: 800px;
+  height: 300px;
+  background-color: green;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#ex1-blue {
+  width: 600px;
+  height: 200px;
+  background-color: purple;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#ex1-orange {
+  width: 400px;
+  height: 100px;
+  background-color: tomato;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* -------------- */
+/* - EXERCICE 2 - */
+/* -------------- */
+
+#ex2-green {
+  width: 800px;
+  height: 300px;
+  position: relative;
+  background-color: green;
+  margin: auto;
+}
+
+#ex2-blue {
+  width: 600px;
+  height: 200px;
+  position: relative;
+  background-color: rgba(128, 0, 128, 0.7);
+  top: 50px;
+  left: 300px;
+}
+
+#ex2-orange {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  background-color: tomato;
+  top: 50px;
+  right: 350px;
+}
+/* -------------- */
+/* - EXERCICE 3 - */
+/* -------------- */
+
+#ex3-fieldset {
+  position: relative;
+  height: 457px;
+}
+
+#ex3-green {
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  background-color: green;
+  top: 25px;
+  left: calc(100vw - 50vw - 400px);
+}
+
+#ex3-blue {
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  background-color: purple;
+  top: 50px;
+  left: 100px;
+}
+
+#ex3-orange {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  left: 200px;
+  top: 280px;
+}
+
+/* -------------- */
+/* - EXERCICE 4 - */
+/* -------------- */
+
+#ex4-fieldset {
+  position: relative;
+  height: 730px;
+}
+
+#ex4-lightblue {
+  width: 100%;
+  height: 70px;
+  background-color: lightblue;
+}
+
+#ex4-green {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  top: 300px;
+  left: calc(100vw - 50vw - 150px);
+}
+
+#ex4-blue {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  top: 75px;
+  left: 75px;
+}
+
+#ex4-orange {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  top: 250px;
+  left: 250px;
+}
+
+/* -------------- */
+/* - EXERCICE 5 - */
+/* -------------- */
+
+#ex5-fieldsite {
+  position: relative;
+  height: 520px;
+}
+
+#ex5-lightblue {
+  box-sizing: border-box;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: lightblue;
+  left: calc(100vw - 50vw - 250px);
+}
+
+#ex5-green {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  left: 50px;
+  top: 50px;
+}
+
+#ex5-blue {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  left: 50px;
+  top: 150px;
+}
+
+#ex5-orange {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: tomato;
+  left: 300px;
+  bottom: 4px;
+}
+
+#ex5-yellow {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  left: 300px;
+  bottom: 410px;
+}
+
+/* -------------- */
+/* - EXERCICE 6 - */
+/* -------------- */
+
+#ex6-lightblue {
+  width: 500px;
+  height: 500px;
+  background-color: lightblue;
+  position: relative;
+  left: calc(100vw - 50vw - 250px);
+}
+
+#ex6-green {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  left: 80px;
+  top: 80px;
+}
+
+#ex6-blue {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(128, 0, 128, 0.7);
+  left: 115px;
+  top: 115px;
+  z-index: 2;
+}
+
+#ex6-orange {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: tomato;
+  right: 115px;
+  bottom: 115px;
+  z-index: 1;
+}
+
+#ex6-yellow {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  right: 80px;
+  bottom: 80px;
+}
+
+/* -------------- */
+/* - EXERCICE 7 - */
+/* -------------- */
+
+#conteneur {
+  width: 803px;
+  height: 800px;
+  margin: auto;
+  padding-top: 50px;
+  border: none;
+}
+
+#ex7-orange {
+  float: none;
+  clear: both;
+  width: 800px;
+  height: 300px;
+  background-color: tomato;
+}
+
+#ex7-green {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+#ex7-blue {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+}
+
+#ex7-yellow {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+#ex7-grey {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+}
