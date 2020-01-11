@@ -12,6 +12,26 @@ fieldset div {
   border: 2px solid black;
 }
 
+.lightblue {
+  background-color: lightblue;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: purple;
+}
+
+.orange {
+  background-color: tomato;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
 /* -------------- */
 /* - EXERCICE 1 - */
 /* -------------- */
@@ -19,7 +39,6 @@ fieldset div {
 #ex1-green {
   width: 800px;
   height: 300px;
-  background-color: green;
   margin: auto;
   padding-top: 50px;
 }
@@ -27,7 +46,6 @@ fieldset div {
 #ex1-blue {
   width: 600px;
   height: 200px;
-  background-color: purple;
   margin: auto;
   padding-top: 50px;
 }
@@ -35,7 +53,6 @@ fieldset div {
 #ex1-orange {
   width: 400px;
   height: 100px;
-  background-color: tomato;
   margin: auto;
   padding-top: 50px;
 }
@@ -48,7 +65,6 @@ fieldset div {
   width: 800px;
   height: 300px;
   position: relative;
-  background-color: green;
   margin: auto;
 }
 
@@ -65,7 +81,6 @@ fieldset div {
   width: 400px;
   height: 100px;
   position: relative;
-  background-color: tomato;
   top: 50px;
   right: 350px;
 }
@@ -82,7 +97,6 @@ fieldset div {
   position: absolute;
   width: 800px;
   height: 300px;
-  background-color: green;
   top: 25px;
   left: calc(100vw - 50vw - 400px);
 }
@@ -91,7 +105,6 @@ fieldset div {
   position: absolute;
   width: 600px;
   height: 200px;
-  background-color: purple;
   top: 50px;
   left: 100px;
 }
@@ -100,7 +113,6 @@ fieldset div {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: tomato;
   left: 200px;
   top: 280px;
 }
@@ -117,14 +129,12 @@ fieldset div {
 #ex4-lightblue {
   width: 100%;
   height: 70px;
-  background-color: lightblue;
 }
 
 #ex4-green {
   position: absolute;
   width: 300px;
   height: 300px;
-  background-color: green;
   top: 300px;
   left: calc(100vw - 50vw - 150px);
 }
@@ -133,7 +143,6 @@ fieldset div {
   position: absolute;
   width: 150px;
   height: 150px;
-  background-color: purple;
   top: 75px;
   left: 75px;
 }
@@ -142,7 +151,6 @@ fieldset div {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: tomato;
   top: 250px;
   left: 250px;
 }
@@ -161,7 +169,6 @@ fieldset div {
   position: absolute;
   height: 500px;
   width: 500px;
-  background-color: lightblue;
   left: calc(100vw - 50vw - 250px);
 }
 
@@ -169,7 +176,6 @@ fieldset div {
   position: relative;
   width: 150px;
   height: 150px;
-  background-color: green;
   left: 50px;
   top: 50px;
 }
@@ -178,7 +184,6 @@ fieldset div {
   position: relative;
   width: 150px;
   height: 150px;
-  background-color: purple;
   left: 50px;
   top: 150px;
 }
@@ -187,7 +192,6 @@ fieldset div {
   position: relative;
   width: 150px;
   height: 150px;
-  background-color: tomato;
   left: 300px;
   bottom: 4px;
 }
@@ -196,7 +200,6 @@ fieldset div {
   position: relative;
   width: 150px;
   height: 150px;
-  background-color: yellow;
   left: 300px;
   bottom: 410px;
 }
@@ -208,7 +211,6 @@ fieldset div {
 #ex6-lightblue {
   width: 500px;
   height: 500px;
-  background-color: lightblue;
   position: relative;
   left: calc(100vw - 50vw - 250px);
 }
@@ -217,7 +219,6 @@ fieldset div {
   position: absolute;
   width: 150px;
   height: 150px;
-  background-color: green;
   left: 80px;
   top: 80px;
 }
@@ -236,7 +237,6 @@ fieldset div {
   position: absolute;
   width: 150px;
   height: 150px;
-  background-color: tomato;
   right: 115px;
   bottom: 115px;
   z-index: 1;
@@ -246,7 +246,6 @@ fieldset div {
   position: absolute;
   width: 150px;
   height: 150px;
-  background-color: yellow;
   right: 80px;
   bottom: 80px;
 }
@@ -268,28 +267,24 @@ fieldset div {
   clear: both;
   width: 800px;
   height: 300px;
-  background-color: tomato;
 }
 
 #ex7-green {
   float: left;
   width: 200px;
   height: 200px;
-  background-color: green;
 }
 
 #ex7-blue {
   float: left;
   width: 200px;
   height: 200px;
-  background-color: purple;
 }
 
 #ex7-yellow {
   float: right;
   width: 200px;
   height: 200px;
-  background-color: yellow;
 }
 
 #ex7-grey {
@@ -314,7 +309,6 @@ fieldset div {
   width: 75px;
   text-align: left;
   border: none;
-  background-color: tomato;
   padding: 25px;
 }
 
