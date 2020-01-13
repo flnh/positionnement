@@ -156,15 +156,15 @@ fieldset div {
 }
 
 /* ---------------- */
-/* - EXERCICE 5 a - */
+/* - EXERCICE 5a - */
 /* ---------------- */
 
-#ex5-fieldsite {
+#ex5a-fieldsite {
   position: relative;
   height: 520px;
 }
 
-#ex5-lightblue {
+#ex5a-lightblue {
   box-sizing: border-box;
   position: absolute;
   height: 500px;
@@ -172,7 +172,7 @@ fieldset div {
   left: calc(100vw - 50vw - 250px);
 }
 
-#ex5-green {
+#ex5a-green {
   position: relative;
   width: 150px;
   height: 150px;
@@ -180,7 +180,7 @@ fieldset div {
   top: 50px;
 }
 
-#ex5-blue {
+#ex5a-blue {
   position: relative;
   width: 150px;
   height: 150px;
@@ -188,7 +188,7 @@ fieldset div {
   top: 150px;
 }
 
-#ex5-orange {
+#ex5a-orange {
   position: relative;
   width: 150px;
   height: 150px;
@@ -196,7 +196,7 @@ fieldset div {
   bottom: 4px;
 }
 
-#ex5-yellow {
+#ex5a-yellow {
   position: relative;
   width: 150px;
   height: 150px;
@@ -205,7 +205,7 @@ fieldset div {
 }
 
 /* ---------------- */
-/* - EXERCICE 5 a - */
+/* - EXERCICE 5a - */
 /* ---------------- */
 
 #ex5b-fieldsite {

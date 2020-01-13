@@ -13,3 +13,6 @@
   16h13: ADD color classes and CSS color refactoring
   16h16: DELETE useless line
   16h29: ADD commits list
+13/01/2020:
+  14h00: ADD exercise 5b
+  14h35: Final commit
