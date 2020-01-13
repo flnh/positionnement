@@ -155,9 +155,9 @@ fieldset div {
   left: 250px;
 }
 
-/* -------------- */
-/* - EXERCICE 5 - */
-/* -------------- */
+/* ---------------- */
+/* - EXERCICE 5 a - */
+/* ---------------- */
 
 #ex5-fieldsite {
   position: relative;
@@ -202,6 +202,55 @@ fieldset div {
   height: 150px;
   left: 300px;
   bottom: 410px;
+}
+
+/* ---------------- */
+/* - EXERCICE 5 a - */
+/* ---------------- */
+
+#ex5b-fieldsite {
+  position: relative;
+  height: 520px;
+}
+
+#ex5b-lightblue {
+  box-sizing: border-box;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  left: calc(100% - 50% - 233px);
+}
+
+#ex5b-green {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50px;
+  top: 50px;
+}
+
+#ex5b-blue {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50px;
+  bottom: 50px;
+}
+
+#ex5b-orange {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 300px;
+  bottom: 50px;
+}
+
+#ex5b-yellow {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 300px;
+  top: 50px;
 }
 
 /* -------------- */
